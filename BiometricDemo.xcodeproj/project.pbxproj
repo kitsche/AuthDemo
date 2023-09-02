@@ -17,6 +17,7 @@
 		55C5C43B2AA384A600CD1573 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5C43A2AA384A600CD1573 /* Title.swift */; };
 		55C5C43D2AA3862000CD1573 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5C43C2AA3862000CD1573 /* PrimaryButton.swift */; };
 		55C5C4402AA387AD00CD1573 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5C43F2AA387AD00CD1573 /* LoginView.swift */; };
+		55C5C4422AA389B700CD1573 /* BiometricManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5C4412AA389B700CD1573 /* BiometricManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		55C5C43A2AA384A600CD1573 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		55C5C43C2AA3862000CD1573 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		55C5C43F2AA387AD00CD1573 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		55C5C4412AA389B700CD1573 /* BiometricManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricManager.swift; sourceTree = "<group>"; };
+		55C5C4432AA38A7E00CD1573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +103,13 @@
 		55C5C40E2AA3836300CD1573 /* BiometricDemo */ = {
 			isa = PBXGroup;
 			children = (
+				55C5C4432AA38A7E00CD1573 /* Info.plist */,
 				55C5C43E2AA3877700CD1573 /* Views */,
 				55C5C4392AA3849200CD1573 /* Components */,
 				55C5C40F2AA3836300CD1573 /* BiometricDemoApp.swift */,
 				55C5C4132AA3836500CD1573 /* Assets.xcassets */,
 				55C5C4152AA3836500CD1573 /* Preview Content */,
+				55C5C4412AA389B700CD1573 /* BiometricManager.swift */,
 			);
 			path = BiometricDemo;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 			files = (
 				55C5C4122AA3836300CD1573 /* ContentView.swift in Sources */,
 				55C5C43B2AA384A600CD1573 /* Title.swift in Sources */,
+				55C5C4422AA389B700CD1573 /* BiometricManager.swift in Sources */,
 				55C5C43D2AA3862000CD1573 /* PrimaryButton.swift in Sources */,
 				55C5C4402AA387AD00CD1573 /* LoginView.swift in Sources */,
 				55C5C4102AA3836300CD1573 /* BiometricDemoApp.swift in Sources */,
@@ -453,6 +459,7 @@
 				DEVELOPMENT_TEAM = 27QL69X223;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BiometricDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -482,6 +489,7 @@
 				DEVELOPMENT_TEAM = 27QL69X223;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BiometricDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

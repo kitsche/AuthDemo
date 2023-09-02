@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var biometricManager = BiometricManager()
     var body: some View {
         VStack {
             LoginView()
+                .environmentObject(biometricManager)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .edgesIgnoringSafeArea(.all)
