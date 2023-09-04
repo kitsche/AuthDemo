@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		557CF9EB2AA588D90028E71C /* CredentialsLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CF9EA2AA588D90028E71C /* CredentialsLoginView.swift */; };
 		55C5C4102AA3836300CD1573 /* BiometricDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5C40F2AA3836300CD1573 /* BiometricDemoApp.swift */; };
 		55C5C4122AA3836300CD1573 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5C4112AA3836300CD1573 /* ContentView.swift */; };
 		55C5C4142AA3836500CD1573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C5C4132AA3836500CD1573 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		557CF9EA2AA588D90028E71C /* CredentialsLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsLoginView.swift; sourceTree = "<group>"; };
 		55C5C40C2AA3836300CD1573 /* BiometricDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiometricDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C5C40F2AA3836300CD1573 /* BiometricDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricDemoApp.swift; sourceTree = "<group>"; };
 		55C5C4112AA3836300CD1573 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			children = (
 				55C5C4112AA3836300CD1573 /* ContentView.swift */,
 				55C5C43F2AA387AD00CD1573 /* LoginView.swift */,
+				557CF9EA2AA588D90028E71C /* CredentialsLoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			files = (
 				55C5C4122AA3836300CD1573 /* ContentView.swift in Sources */,
 				55C5C43B2AA384A600CD1573 /* Title.swift in Sources */,
+				557CF9EB2AA588D90028E71C /* CredentialsLoginView.swift in Sources */,
 				55C5C4422AA389B700CD1573 /* BiometricManager.swift in Sources */,
 				55C5C43D2AA3862000CD1573 /* PrimaryButton.swift in Sources */,
 				55C5C4402AA387AD00CD1573 /* LoginView.swift in Sources */,

@@ -17,10 +17,26 @@ struct LoginView: View {
             biometricManager.biometryType {
             case .faceID:
                 PrimaryButton(image: "faceid", title: "Login with FaceID")
+                    .onTapGesture {
+                        print("touched")
+                        Task.init() {
+                            await biometricManager.authenticatedWithBiometrics()
+                        }
+                    }
             case .touchID:
                 PrimaryButton(image: "touchid", title: "Login with TouchID")
+                    .onTapGesture {
+                        Task.init() {
+                            await biometricManager.authenticatedWithBiometrics()
+                        }
+                    }
             default:
-                PrimaryButton(image: "person.fill", title: "Login with your credentials")
+                NavigationLink {
+                    CredentialsLoginView()
+                        .environmentObject(biometricManager)
+                } label: {
+                    PrimaryButton(image: "person.fill", title: "Login with your credentials")
+                }
             }
         }
         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
